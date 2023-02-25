@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.first{
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: rgb(61, 52, 52);
+    transition: all 1s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first:hover{
+    transform: rotate(180deg);
+}
+
+.second{
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: rgb(61, 52, 52);;
+    transition: all 1s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second:hover{
+    width: 500px;
+}
+
+.third{
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: rgb(61, 52, 52);;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third:hover{
+    transform: rotate(135deg);
+}
